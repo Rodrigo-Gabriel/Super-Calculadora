@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./javascript/conversor.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="./public/conversor.css">
+    <title>Conversor de moedas</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="titulo">Descubra o volume</h1>
+        <div class="navbar"></div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">home</a></li>
+                    <li>volumes</li>
+                    <li>outras formulas</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container-contas">
+        <div class="dentro-contas">
+            <h1 class="titulo-conta">Descubra o volume do cubo</h1>
+            <div class="container-valores">
+                <input type="number" class="valor1" id="valor1" placeholder="maior valor">
+                <input type="number" class="valor2" id="valor2" placeholder="menor valor">
+            </div>
+
+            <div class="container-resultado">
+                <div class="container-button">
+                    <button type="button" class="verificaConta" id="verificaConta">verificar</button>
+                    <button type="button" class="limparResultado" id="limparResultado">limpar</button>
+                </div>
+                <div class="resultado">
+                    <p class="p" id="p">resultado...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-contas">
+        <div class="dentro-contas">
+            <h1 class="titulo-conta">Descubra o volume do paralelepipedo</h1>
+            <h3 class="formula">V = a . b . c</h3>
+            <div class="container-valores">
+                <input type="number" class="valor1" id="valorA" placeholder="valor A">
+                <input type="number" class="valor2" id="valorB" placeholder="valor B">
+                <input type="number" class="valor3" id="valorC" placeholder="valor C">
+            </div>
+
+             <div class="container-resultado">
+                <div class="container-button">
+                    <button type="button" class="verificaConta" id="verificaContaParalelepipedo">verificar</button>
+                    <button type="button" class="limparResultado" id="limparResultadoParalelepipedo">limpar</button>
+                </div>
+                <div class="resultado">
+                    <p class="p" id="pParalelepipedo">resultado...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-contas">
+        <div class="dentro-contas">
+            <h1 class="titulo-conta">Descubra o volume do cilindro</h1>
+            <h3 class="formula">V = πr²h</h3>
+            <div class="container-valores">
+                <input type="number" class="valor1" id="valorRaio" placeholder="valor do raio">
+                <input type="number" class="valor2" id="valorAltura" placeholder="valor da altura">
+            </div>
+
+             <div class="container-resultado">
+                <div class="container-button">
+                    <button type="button" class="verificaConta" id="verificaContaCilindro">verificar</button>
+                    <button type="button" class="limparResultado" id="limparResultadoCilindro">limpar</button>
+                </div>
+                <div class="resultado">
+                    <p class="p" id="pCilindro">resultado...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-contas">
+        <div class="dentro-contas">
+            <h1 class="titulo-conta">Descubra o volume do prisma</h1>
+            <h3 class="formula">V = Ab · h</h3>
+            <div class="container-valores">
+                <input type="number" class="valor1" id="valorPrismaAb" placeholder="área da base">
+                <input type="number" class="valor2" id="valorPrismaH" placeholder="altura do prisma">
+            </div>
+
+             <div class="container-resultado">
+                <div class="container-button">
+                    <button type="button" class="verificaConta" id="verificaContaPrisma">verificar</button>
+                    <button type="button" class="limparResultado" id="limparResultadoPrisma">limpar</button>
+                </div>
+                <div class="resultado">
+                    <p class="p" id="pPrisma">resultado...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
