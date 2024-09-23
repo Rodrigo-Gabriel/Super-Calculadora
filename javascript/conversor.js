@@ -70,7 +70,7 @@ verificaContaPrisma.addEventListener('click', () => {
 
     let contaPrisma = Number(valorPrismaAb * valorPrismaH);
 
-    pPrisma.innerHTML = 'O volume é = ' + contaPrisma.toFixed(1);
+    pPrisma.innerHTML = 'O volume é = ' + contaPrisma.toFixed(1) + ' cm3';
 })
 
 limparResultadoPrisma.addEventListener('click', () => {
